@@ -31,6 +31,7 @@ def predict_number(number:int = 1) -> int:
             
         else:            
             break # out of cycle, if guessed
+        
     return(count)
         
 

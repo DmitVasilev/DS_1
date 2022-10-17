@@ -37,7 +37,7 @@ Data is not used in the project
 - The "predict_number" function was written to guess the number in less than 20 attempts. [game_v2.py](https://github.com/Tio147/DS_1/blob/main/project_0/game_v2.py) 
 - Checked with the help of the previously written "score_game" function, how many attempts are guessed on average out of 1000 cases. [game_v2.py](https://github.com/Tio147/DS_1/blob/main/project_0/game_v2.py)
 - A test function "test_game" has been written that checks how many attempts it takes to guess each number and determines the maximum number of attempts. [test.py](https://github.com/Tio147/DS_1/blob/main/project_0/test.py)
-- Created requirements.txt file to ensure code reproducibility. [requirements.txt](https://github.com/Tio147/DS_1/blob/main/project_0/requirements.txt)
+- Created requirements.txt file to ensure code reproducibility. [requirements.txt](https://github.com/Tio147/DS_1/blob/main/project_0/requirements.txt)    
 :arrow_up:[in table of contents](https://github.com/Tio147/DS_1/tree/main/project_0/README.md#Table-of-contents)
 
 

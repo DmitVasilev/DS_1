@@ -11,7 +11,7 @@ def test_game(predict_function):
     the number.
     """
     
-    dict_guess = {}
+    dict_guess = {} # A dictionary to collect the number of guessing attempts.
     
     for i in range(1,101):
         dict_guess[i] = predict_function(i)
