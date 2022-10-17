@@ -1,5 +1,5 @@
 """Game guess number.
-the computer guesses the given number
+The computer guesses the given number.
 """
 
 import numpy as np
@@ -15,9 +15,9 @@ def predict_number(number:int = 1) -> int:
         int: count of tries
     """
     
-    count = 0 # number of tries
-    number_max = 101 # maximum limit of the guess range
-    number_min = 1 # minimum limit of the guess range
+    count = 0 # Number of tries
+    number_max = 101 # Maximum limit of the guess range
+    number_min = 1 # Minimum limit of the guess range
         
     while True:
         count += 1
@@ -30,7 +30,7 @@ def predict_number(number:int = 1) -> int:
             number_max = predict_number
             
         else:            
-            break # out of cycle, if guessed
+            break # Out of cycle, if guessed
         
     return(count)
         
@@ -45,14 +45,14 @@ def score_game(predict_function) -> int:
         int: averege number of tries
     """
     
-    count_ls = [] # list for saving number of tries
-    np.random.seed(1) # fixed seed for replay
-    # made a list of number
+    count_ls = [] # List for saving number of tries
+    np.random.seed(1) # Fixed seed for replay
+    # Made a list of number
     random_array = np.random.randint(1, 101, size=(1000)) 
     
     for number in random_array:
         count_ls.append(predict_function(number))
-    score = int(np.mean(count_ls)) # find average number of tries
+    score = int(np.mean(count_ls)) # Find average number of tries
     
     print(f"Your algorithm guesses the number on average in: {score} tries")
     return(score)
