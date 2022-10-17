@@ -1,9 +1,10 @@
 """Game predict number.
+
 """
 
 import numpy as np
 
-number = np.random.randint(1,101) # Guessing number
+number = np.random.randint(1,101)  # Guessing number
 
 count = 0
 
@@ -19,4 +20,4 @@ while True:
     
     else:
         print(f'You gussed the number in {count} tries')
-        break # End game, out of cycle
+        break  # End game, out of cycle
