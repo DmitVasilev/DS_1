@@ -42,7 +42,7 @@ Data is not used in the project
 
 
 ### Results
-The written function guesses the number in 5 attempts on average, the maximum number of guessing attempts is 7.
+The written function guesses the number in 5 attempts on average, the maximum number of guessing attempts is 7. [game.ipynb](https://github.com/Tio147/DS_1/blob/main/project_0/game.ipynb)
 :arrow_up:[in table of contents](https://github.com/Tio147/DS_1/tree/main/project_0/README.md#Table-of-contents)
 
 

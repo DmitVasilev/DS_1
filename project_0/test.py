@@ -19,4 +19,6 @@ def test_game(predict_function):
     return max(dict_guess.values()), dict_guess
 
 
-print(test_game(predict_number))
+if __name__ == '__main__':
+    # Run
+    print(test_game(predict_number))

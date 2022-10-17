@@ -57,6 +57,7 @@ def score_game(predict_function) -> int:
     print(f"Your algorithm guesses the number on average in: {score} tries")
     return(score)
 
+
 if __name__ == '__main__':
     # Run
     score_game(predict_number)
