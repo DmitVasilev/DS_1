@@ -1,12 +1,12 @@
 # Project 0. Guess number
 
 ## Table of contents
-[1. Project description](https://github.com/Tio147/DS_1/tree/main/project_0/README.md#project-description)   
-[2. What case are we solving?](https://github.com/Tio147/DS_1/tree/main/project_0/README.md#what-case-are-we-solving?)   
-[3. Brief information about the data](https://github.com/Tio147/DS_1/tree/main/project_0/README.md#brief-information-about-the-data)   
-[4. Stages of the project](https://github.com/Tio147/DS_1/tree/main/project_0/README.md#stages-of-the-project)   
-[5. Results](https://github.com/Tio147/DS_1/tree/main/project_0#results)
-[6. Conclusions](https://github.com/Tio147/DS_1/tree/main/project_0/README.md#conclusions)   
+[1. Project description](https://github.com/Tio147/DS_1/tree/main/project_0#project-description)   
+[2. What case are we solving?](https://github.com/Tio147/DS_1/tree/main/project_0#what-case-are-we-solving?)   
+[3. Brief information about the data](https://github.com/Tio147/DS_1/tree/main/project_0#brief-information-about-the-data)   
+[4. Stages of the project](https://github.com/Tio147/DS_1/tree/main/project_0#stages-of-the-project)   
+[5. Results](https://github.com/Tio147/DS_1/tree/main/project_0#results)   
+[6. Conclusions](https://github.com/Tio147/DS_1/tree/main/project_0#conclusions)   
 
 ### Project description
 Guess the number guessed by the computer in the minimum number of attempts
