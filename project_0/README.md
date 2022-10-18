@@ -34,15 +34,15 @@ Data is not used in the project
 
 
 ### Stages of the project
-- The "predict_number" function was written to guess the number in less than 20 attempts. [game_v2.py](https://github.com/Tio147/DS_1/blob/main/project_0/game_v2.py) 
-- Checked with the help of the previously written "score_game" function, how many attempts are guessed on average out of 1000 cases. [game_v2.py](https://github.com/Tio147/DS_1/blob/main/project_0/game_v2.py)
-- A test function "test_game" has been written that checks how many attempts it takes to guess each number and determines the maximum number of attempts. [test.py](https://github.com/Tio147/DS_1/blob/main/project_0/test.py)
-- Created requirements.txt file to ensure code reproducibility. [requirements.txt](https://github.com/Tio147/DS_1/blob/main/project_0/requirements.txt)    
+- The "predict_number" function was written to guess the number in less than 20 attempts: [game_v2.py](https://github.com/Tio147/DS_1/blob/main/project_0/game_v2.py) 
+- Checked with the help of the previously written "score_game" function, how many attempts are guessed on average out of 1000 cases: [game_v2.py](https://github.com/Tio147/DS_1/blob/main/project_0/game_v2.py)
+- A test function "test_game" has been written that checks how many attempts it takes to guess each number and determines the maximum number of attempts: [test.py](https://github.com/Tio147/DS_1/blob/main/project_0/test.py)
+- Created requirements.txt file to ensure code reproducibility: [requirements.txt](https://github.com/Tio147/DS_1/blob/main/project_0/requirements.txt)    
 :arrow_up:[in table of contents](https://github.com/Tio147/DS_1/tree/main/project_0/README.md#Table-of-contents)
 
 
 ### Results
-The written function guesses the number in 5 attempts on average, the maximum number of guessing attempts is 7. [game.ipynb](https://github.com/Tio147/DS_1/blob/main/project_0/game.ipynb)    
+The written function guesses the number in 5 attempts on average, the maximum number of guessing attempts is 7: [game.ipynb](https://github.com/Tio147/DS_1/blob/main/project_0/game.ipynb)   
 :arrow_up:[in table of contents](https://github.com/Tio147/DS_1/tree/main/project_0/README.md#Table-of-contents)
 
 
