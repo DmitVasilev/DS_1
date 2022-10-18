@@ -2,7 +2,7 @@
 
 ## Table of contents
 [1. Project description](https://github.com/Tio147/DS_1/tree/main/project_0#project-description)   
-[2. What case are we solving?](https://github.com/Tio147/DS_1/tree/main/project_0#what-case-are-we-solving?)   
+[2. What case are we solving?](https://github.com/Tio147/DS_1/tree/main/project_0#what-case-are-we-solving)   
 [3. Brief information about the data](https://github.com/Tio147/DS_1/tree/main/project_0#brief-information-about-the-data)   
 [4. Stages of the project](https://github.com/Tio147/DS_1/tree/main/project_0#stages-of-the-project)   
 [5. Results](https://github.com/Tio147/DS_1/tree/main/project_0#results)   
