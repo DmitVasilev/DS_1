@@ -5,7 +5,7 @@
 [2. What case are we solving?](https://github.com/Tio147/DS_1/tree/main/project_0/README.md#what-case-are-we-solving?)   
 [3. Brief information about the data](https://github.com/Tio147/DS_1/tree/main/project_0/README.md#brief-information-about-the-data)   
 [4. Stages of the project](https://github.com/Tio147/DS_1/tree/main/project_0/README.md#stages-of-the-project)   
-[5. Results](https://github.com/Tio147/DS_1/tree/main/project_0/README.md#results)   
+[5. Results](https://github.com/Tio147/DS_1/tree/main/project_0#results)
 [6. Conclusions](https://github.com/Tio147/DS_1/tree/main/project_0/README.md#conclusions)   
 
 ### Project description
