@@ -1,52 +1,90 @@
-# Project 0. Guess number
+# Project 0.5  Задание по модулю PYTHON-13. Визуализация данных
 
-## Table of contents
-[1. Project description](https://github.com/Tio147/DS_1/tree/main/project_0#project-description)   
-[2. What case are we solving?](https://github.com/Tio147/DS_1/tree/main/project_0#what-case-are-we-solving)   
-[3. Brief information about the data](https://github.com/Tio147/DS_1/tree/main/project_0#brief-information-about-the-data)   
-[4. Stages of the project](https://github.com/Tio147/DS_1/tree/main/project_0#stages-of-the-project)   
-[5. Results](https://github.com/Tio147/DS_1/tree/main/project_0#results)   
-[6. Conclusions](https://github.com/Tio147/DS_1/tree/main/project_0#conclusions)   
-
-### Project description
-Guess the number guessed by the computer in the minimum number of attempts
-:arrow_up:[in table of contents](https://github.com/Tio147/DS_1/tree/main/project_0/README.md#Table-of-contents)
+## Содержание
+[1. Введение](https://github.com/Tio147/DS_1/tree/main/project_0.5#введение)   
+[2. Описание задачи](https://github.com/Tio147/DS_1/tree/main/project_0.5#Описание_задачи)   
+[3. Структура данных](https://github.com/Tio147/DS_1/tree/main/project_0.5#Структура_данных)   
+[4. Перечень заданий](https://github.com/Tio147/DS_1/tree/main/project_0.5#Перечень_заданий)   
+[5. Результат](https://github.com/Tio147/DS_1/tree/main/project_0.5#Результат)   
 
 
-### What case are we solving?
-You need to write a program that guesses the number in the minimum number of attempts.
+### Введение
+Итак, банк обращается к вам за помощью: он хочет разработать кампанию лояльности по удержанию клиентов, но для этого ему необходимо, чтобы вы выяснили основные причины оттока клиентов. Иными словами, нужно установить, чем ушедшие клиенты отличаются от лояльных и как между собой связаны различные признаки, определяющие клиентов.
 
-**Competition conditions:**
-- The computer guesses an integer from 1 to 100 and we need to guess it. By "guess" is meant "write a program that guesses a number"
-- The algorithm takes into account information about whether the random number is greater or less than the one we need.
-
-**Quality metric**   
-The results are evaluated by the average number of attempts at 1000 repetitions.
-
-**What we practice**   
-Learning to write good Python code.
-:arrow_up:[in table of contents](https://github.com/Tio147/DS_1/tree/main/project_0/README.md#Table-of-contents)
+После разведывательного анализа, с целью выявления наиболее важных признаков оттока, банк сможет построить модель машинного обучения, которая будет прогнозировать уход клиента. 
+:arrow_up:[in table of contents](https://github.com/Tio147/DS_1/tree/main/project_0.5/README.md#Содержание)
 
 
-### Brief information about the data
-Data is not used in the project
-:arrow_up:[in table of contents](https://github.com/Tio147/DS_1/tree/main/project_0/README.md#Table-of-contents)
+### Описание задачи
+Необходимо подготовить мини-отчёт о проделанной работе в виде ноутбука. Отчёт должен содержать ответы на приведённые в разделе "перечень задач" вопросы в виде графика и подробных выводов, которые можно сделать, исходя из него.
+:arrow_up:[in table of contents](https://github.com/Tio147/DS_1/tree/main/project_0.5/README.md#Содержание)
 
 
-### Stages of the project
-- The "predict_number" function was written to guess the number in less than 20 attempts: [game_v2.py](https://github.com/Tio147/DS_1/blob/main/project_0/game_v2.py) 
-- Checked with the help of the previously written "score_game" function, how many attempts are guessed on average out of 1000 cases: [game_v2.py](https://github.com/Tio147/DS_1/blob/main/project_0/game_v2.py)
-- A test function "test_game" has been written that checks how many attempts it takes to guess each number and determines the maximum number of attempts: [test.py](https://github.com/Tio147/DS_1/blob/main/project_0/test.py)
-- Created requirements.txt file to ensure code reproducibility: [requirements.txt](https://github.com/Tio147/DS_1/blob/main/project_0/requirements.txt)    
-:arrow_up:[in table of contents](https://github.com/Tio147/DS_1/tree/main/project_0/README.md#Table-of-contents)
+### Структура данных
+Рассматриваемые данные об оттоке клиентов некоторого банка взяты с [Kaggle](https://www.kaggle.com/mathchi/churn-for-bank-customers).
+
+Столбцы таблицы:
+RowNumber — номер строки таблицы (это лишняя информация, поэтому можете сразу от неё избавиться)    
+CustomerId — идентификатор клиента   
+Surname — фамилия клиента   
+CreditScore — кредитный рейтинг клиента (чем он выше, тем больше клиент брал кредитов и возвращал их)    
+Geography — страна клиента (банк международный)    
+Gender — пол клиента    
+Age — возраст клиента    
+Tenure — сколько лет клиент пользуется услугами банка    
+Balance — баланс на счетах клиента в банке    
+NumOfProducts — количество услуг банка, которые приобрёл клиент    
+HasCrCard — есть ли у клиента кредитная карта (1 — да, 0 — нет)    
+IsActiveMember — есть ли у клиента статус активного клиента банка (1 — да, 0 — нет)    
+EstimatedSalary — предполагаемая заработная плата клиента    
+Exited — статус лояльности (1 — ушедший клиент, 0 — лояльный клиент)    
+:arrow_up:[in table of contents](https://github.com/Tio147/DS_1/tree/main/project_0.5/README.md#Содержание)
 
 
-### Results
-The written function guesses the number in 5 attempts on average, the maximum number of guessing attempts is 7: [game.ipynb](https://github.com/Tio147/DS_1/blob/main/project_0/game.ipynb)   
-:arrow_up:[in table of contents](https://github.com/Tio147/DS_1/tree/main/project_0/README.md#Table-of-contents)
+### Перечень заданий
+9.1. Каково соотношение ушедших и лояльных клиентов? Покажите это на графике и дайте комментарий по соотношению.
+
+9.2. Постройте график, показывающий распределение баланса пользователей, у которых на счету больше 2 500 долларов. Опишите распределение и сделайте выводы.
+
+9.3. Посмотрите на распределение баланса клиента в разрезе признака оттока. Как различаются суммы на накопительном счёте ушедших и лояльных клиентов? Подумайте и напишите, с чем это может быть связано, что может не устраивать ушедших клиентов в банке.
+
+9.4. Посмотрите на распределение возраста в разрезе признака оттока. В какой группе больше потенциальных выбросов? На какую возрастную категорию клиентов стоит обратить внимание банку?
+
+9.5. Постройте график, который показывает взаимосвязь кредитного рейтинга клиента и его предполагаемой зарплаты. Добавьте расцветку по признаку оттока клиентов. Какова взаимосвязь между признаками? Если не видите явной взаимосвязи, укажите это.
+
+9.6. Кто чаще уходит, мужчины или женщины? Постройте график, который иллюстрирует это.
+
+Подсказка
+9.7. Как отток клиентов зависит от числа приобретённых у банка услуг? Для ответа на этот вопрос постройте многоуровневую столбчатую диаграмму.
+
+9.8. Как влияет наличие статуса активного клиента на отток клиентов? Постройте диаграмму, иллюстрирующую это. Что бы вы предложили банку, чтобы уменьшить отток клиентов среди неактивных?
+
+9.9. В какой стране доля ушедших клиентов больше? Постройте тепловую картограмму, которая покажет это соотношение на карте мира. Предположите, с чем это может быть связано.
+
+9.10. Переведите числовой признак CreditScore в категориальный. Для этого воспользуйтесь функцией get_credit_score_cat(), которая приведена ниже. Примените её к столбцу CreditScore и создайте новый признак CreditScoreCat — категории кредитного рейтинга.
+
+def get_credit_score_cat(credit_score):
+    if credit_score >= 300 and credit_score < 500:
+        return "Very_Poor"
+    elif credit_score >= 500 and credit_score < 601:
+        return "Poor"
+    elif credit_score >= 601 and credit_score < 661:
+        return "Fair"
+    elif credit_score >= 661 and credit_score < 781:
+        return "Good"
+    elif credit_score >= 781 and credit_score < 851:
+        return "Excellent"
+    elif credit_score >= 851:
+        return "Top"
+    elif credit_score < 300:
+        return "Deep"
+Постройте сводную таблицу, строками которой являются категории кредитного рейтинга (CreditScoreCat), а столбцами — количество лет, в течение которых клиент пользуется услугами банка (Tenure). В ячейках сводной таблицы должно находиться среднее по признаку оттока (Exited) — доля ушедших пользователей.
+
+На основе полученной сводной таблицы постройте тепловую карту с аннотацией. Найдите на тепловой карте категории клиентов, которые уходят чаще всего.
+:arrow_up:[in table of contents](https://github.com/Tio147/DS_1/tree/main/project_0.5/README.md#Содержание)
 
 
-### Conclusions
-Learned the basics of working with VS Code, GitHub, Jupiter Notebook, Google Colab.
-:arrow_up:[in table of contents](https://github.com/Tio147/DS_1/tree/main/project_0/README.md#Table-of-contents)
-
+### Результат
+Ноутбук с решением: [module Python13.ipynb](https://github.com/Tio147/DS_1/blob/main/project_0.5/module%20Python13.ipynb).
+Для обеспечения воспроизводимости кода можно воспользоваться: [requirements.txt]()
+:arrow_up:[in table of contents](https://github.com/Tio147/DS_1/tree/main/project_0.5/README.md#Содержание)
