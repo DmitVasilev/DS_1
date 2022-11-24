@@ -3,8 +3,8 @@
 ## Содержание
 [1. Введение](https://github.com/Tio147/DS_1/tree/main/project_0.5#введение)   
 [2. Описание задачи](https://github.com/Tio147/DS_1/tree/main/project_0.5#%D0%BE%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%B8%D0%B5-%D0%B7%D0%B0%D0%B4%D0%B0%D1%87%D0%B8)   
-[3. Структура данных](https://github.com/Tio147/DS_1/tree/main/project_0.5#структура_данных)   
-[4. Перечень заданий](https://github.com/Tio147/DS_1/tree/main/project_0.5#перечень_заданий)   
+[3. Структура данных](https://github.com/Tio147/DS_1/tree/main/project_0.5#%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D0%B0-%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85)   
+[4. Перечень заданий](https://github.com/Tio147/DS_1/tree/main/project_0.5#%D0%BF%D0%B5%D1%80%D0%B5%D1%87%D0%B5%D0%BD%D1%8C-%D0%B7%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B9)   
 [5. Результат](https://github.com/Tio147/DS_1/tree/main/project_0.5#результат)   
 
 
@@ -89,5 +89,5 @@ def get_credit_score_cat(credit_score):
 
 ### Результат
 Ноутбук с решением: [module Python13.ipynb](https://github.com/Tio147/DS_1/blob/main/project_0.5/module%20Python13.ipynb).     
-Для обеспечения воспроизводимости кода можно воспользоваться: [requirements.txt]()     
+Для обеспечения воспроизводимости кода можно воспользоваться: [requirements.txt](https://github.com/Tio147/DS_1/blob/main/project_0.5/requirements.txt)     
 :arrow_up:[in table of contents](https://github.com/Tio147/DS_1/tree/main/project_0.5/README.md#Содержание)     
