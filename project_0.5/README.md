@@ -88,8 +88,10 @@ def get_credit_score_cat(credit_score):
 
 
 ### Результат
-Ноутбук с решением выполненном в Seaborn (немного Matplotlib и Plotly): [module Python13.ipynb](https://github.com/Tio147/DS_1/blob/main/project_0.5/module%20Python13.ipynb).       
-Первоначально был ноутбук с решением выполненном в Plotly, но на GitHub не отображаются графики выполненные в Plotly. Поэтому в ответе который идет после графика приведена ссылка для просмотра графика в формате HTML. Ноутбук с решением выполненном в Plotly: [module Python13(Plotly).ipynb](https://github.com/Tio147/DS_1/blob/main/project_0.5/module%20Python13(Plotly).ipynb).
+Ноутбук с решением выполненном в Seaborn (немного Matplotlib и Plotly): [module Python13.ipynb](https://github.com/Tio147/DS_1/blob/main/project_0.5/module%20Python13.ipynb).    
+
+Первоначально был ноутбук с решением выполненном в Plotly, но на GitHub не отображаются графики выполненные в Plotly. Поэтому в ответе который идет после графика приведена ссылка для просмотра графика в формате HTML.             
+Ноутбук с решением выполненном в Plotly: [module Python13(Plotly).ipynb](https://github.com/Tio147/DS_1/blob/main/project_0.5/module%20Python13(Plotly).ipynb).
 
 Для обеспечения воспроизводимости кода можно воспользоваться: [requirements.txt](https://github.com/Tio147/DS_1/blob/main/project_0.5/requirements.txt).     
 :arrow_up:[in table of contents](https://github.com/Tio147/DS_1/tree/main/project_0.5/README.md#Содержание)     
